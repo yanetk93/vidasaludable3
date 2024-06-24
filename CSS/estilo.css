@@ -1,0 +1,120 @@
+/* Estilos generales */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5e0fa;
+}
+.left-section {
+    float: left;
+    width: 50%; 
+    box-sizing: border-box; 
+    padding: 20px; 
+    border: 1px solid #f5e0fa; 
+    background-color: #f5e0fa;
+  }
+  
+  .right-section {
+    float: left; 
+    width: 50%; 
+    box-sizing: border-box;
+    padding: 20px; 
+    border: 1px solid #f5e0fa; 
+    background-color:#f5e0fa; 
+  }
+.container {
+    width: 100%;
+    max-width: 1200;
+    margin: left;
+    padding: 20px;
+   border: 100px;
+}
+
+header {
+    background-color: #5e108f;
+    color: #f5e0fa;
+    padding: 10px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f5e0fa;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+
+
+section {
+    padding: 40px 0;
+    text-align: left;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #5e108f;
+    color: #f5e0fa;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.container2 {
+    max-width: 100%; /* Asegura que el contenedor se ajuste al ancho máximo posible */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    text-align: center; /* Centra la imagen */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%; /* La imagen ocupa como máximo el ancho del contenedor */
+    height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
+}
+
+/* Estilos para hacer la imagen más pequeña en pantallas pequeñas */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px; /* Reducir el padding para pantallas pequeñas */
+    }
+}
+/* Estilos para diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    header h1 {
+        font-size: 20px;
+    }
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 18px;
+    }
+}
